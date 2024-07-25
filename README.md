@@ -1,6 +1,12 @@
 # ⬇️ Resources Download
 
-[Landing Page](https://buy.advantech.com/Widget.aspx?WidgetID=3786) :link: &#x20;
+[Product Portfolio](https://www.advantech.com/zh-tw/products/epd-device/sub\_31602356-e41f-4321-ba9f-012d50648c6b) :link:&#x20;
+
+[ePaper Successful Case eBook ](https://online.fliphtml5.com/pjdmo/ylzz/):link:&#x20;
+
+[Smart Building Landing Pages](https://wesstorage.blob.core.windows.net/cloudservice/deviceon/Building.html) :link:&#x20;
+
+[ePaper Press Release](https://www.advantech.com/en/resources/news/advantech-unveils-innovative-epaper-for-enhanced-smart-transportation-and-building-signage-#0) :link:&#x20;
 
 [WiKi Site](http://ess-wiki.advantech.com.tw/view/DeviceOn/ePaper) :link:
 

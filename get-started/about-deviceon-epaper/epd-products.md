@@ -2,15 +2,13 @@
 
 Currently, Advantech provides  overall product solutions includes various models of fanless box PCs, electronic paper display modules, ePaper display devices, and IoT routers.
 
-**Server**
+**EPD Servers**
 
-**Fanless Box PCs**
+<table><thead><tr><th>Model Name</th><th width="159">CPU</th><th>Memory</th><th>Support</th></tr></thead><tbody><tr><td><a href="https://www.advantech.com/zh-tw/products/6a962f35-ccac-4443-8be0-1a8a98f1e784/epd-ark-1123h/mod_77dc458d-6996-4522-9288-087ac19e297a">EPD-ARK-1123H</a></td><td>Intel® Celeron Quad Core J1900</td><td>8 GB</td><td>500 EPD connections</td></tr><tr><td><a href="https://www.advantech.com/zh-tw/products/6a962f35-ccac-4443-8be0-1a8a98f1e784/epd-ark-2250l/mod_452b2201-6da6-4cc3-884f-86cc284ac528">EPD-ARK-2250L</a></td><td>Intel® Core i7 6600U</td><td>16 GB</td><td>10,000 EPD connections</td></tr></tbody></table>
 
-<table><thead><tr><th>Size</th><th width="159">Display Color</th><th>Model Name</th><th>Communication</th></tr></thead><tbody><tr><td>2.9"</td><td>Black, White</td><td><a href="https://www.advantech.com/zh-tw/products/31602356-e41f-4321-ba9f-012d50648c6b/epd-023b1/mod_a6ea4cd8-6abe-4278-9b52-67134414496f">EPD-023B1</a></td><td>Zigbee</td></tr><tr><td>13.3"</td><td>Black, White</td><td><a href="https://www.advantech.com/zh-tw/products/31602356-e41f-4321-ba9f-012d50648c6b/epm-680/mod_67dbe987-8c7b-4834-bb79-76a51ca063cf">EPM-680</a></td><td>USB</td></tr><tr><td>31.2"</td><td>16 gray level</td><td><a href="https://www.advantech.com/zh-tw/products/31602356-e41f-4321-ba9f-012d50648c6b/epm-880/mod_16ee75cf-4e4b-425c-913f-be9e5484c80b">EPM-880</a></td><td>USB</td></tr></tbody></table>
+**EPD Routers**
 
-**IoT Routers**
-
-<table><thead><tr><th>Size</th><th width="159">Display Color</th><th>Model Name</th><th>Communication</th></tr></thead><tbody><tr><td>2.9"</td><td>Black, White</td><td><a href="https://www.advantech.com/zh-tw/products/31602356-e41f-4321-ba9f-012d50648c6b/epd-023b1/mod_a6ea4cd8-6abe-4278-9b52-67134414496f">EPD-023B1</a></td><td>Zigbee</td></tr><tr><td>13.3"</td><td>Black, White</td><td><a href="https://www.advantech.com/zh-tw/products/31602356-e41f-4321-ba9f-012d50648c6b/epm-680/mod_67dbe987-8c7b-4834-bb79-76a51ca063cf">EPM-680</a></td><td>USB</td></tr><tr><td>31.2"</td><td>16 gray level</td><td><a href="https://www.advantech.com/zh-tw/products/31602356-e41f-4321-ba9f-012d50648c6b/epm-880/mod_16ee75cf-4e4b-425c-913f-be9e5484c80b">EPM-880</a></td><td>USB</td></tr></tbody></table>
+<table><thead><tr><th>Model Name</th><th width="159">OS</th><th>Communication</th></tr></thead><tbody><tr><td><a href="https://www.advantech.com/zh-tw/products/17cdfd4e-330f-4170-b458-fcdad89e5cea/wise-3240/mod_82cb0192-37e4-4fac-a3f6-89ef0b9534e4">WISE-3240</a></td><td>Linux</td><td>Zigbee, WiFi</td></tr><tr><td><a href="https://www.advantech.com/zh-tw/products/17cdfd4e-330f-4170-b458-fcdad89e5cea/wise-3270/mod_5580b4ce-a168-4314-bec4-facd1f296be8">WISE-3270</a></td><td>Linux</td><td>Zigbee, 4G/LTE</td></tr><tr><td><a href="https://www.advantech.com/zh-tw/products/17cdfd4e-330f-4170-b458-fcdad89e5cea/wise-3220/mod_3530a2be-431d-4e4a-b5cc-7156ea767895">WISE-3220</a></td><td>Linux</td><td>Zigbee</td></tr></tbody></table>
 
 
 

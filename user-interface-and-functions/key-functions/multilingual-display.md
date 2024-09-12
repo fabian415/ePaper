@@ -24,23 +24,23 @@ You can download free font files from Google Fonts, with supported file extensio
 
 <figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
 
-Step 6. Click the **Add** button to upload a new font.
+**Step 6.** Click the **Add** button to upload a new font.
 
 <figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
-Step 7. Upload the font file and give it a name.
+**Step 7.** Upload the font file and give it a name.
 
 <figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
-Step 8. Upload successfully.
+**Step 8.** Upload successfully.
 
 <figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
-Step 9. Drag a Static Label as an example. Fill in the **value** with Arab text and select the **font family** with the font we uploaded, here is Arabic.
+**Step 9. Drag a Static Label as an example.** Fill in the **value** with Arab text and select the **font family** with the font we uploaded, here is Arabic.
 
 <figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
-Step 10. Save and preview it.
+**Step 10.** Save and preview it.
 
 <figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 

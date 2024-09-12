@@ -60,7 +60,7 @@
     * [EPD Devices](user-interface-and-functions/web-user-interface/device-onboarding/epd-devices/README.md)
       * [Zigbee-based EPD devices](user-interface-and-functions/web-user-interface/device-onboarding/epd-devices/zigbee-based-epd-devices.md)
       * [WiFi-based EPD devices](user-interface-and-functions/web-user-interface/device-onboarding/epd-devices/wifi-based.md)
-    * [Other Devices](user-interface-and-functions/web-user-interface/device-onboarding/other-devices.md)
+    * [Other End Devices](user-interface-and-functions/web-user-interface/device-onboarding/other-end-devices.md)
   * [EPD Controller](user-interface-and-functions/web-user-interface/epd-controller/README.md)
     * [Bind Data](user-interface-and-functions/web-user-interface/epd-controller/bind-data.md)
     * [Transmit Image](user-interface-and-functions/web-user-interface/epd-controller/transmit-image.md)

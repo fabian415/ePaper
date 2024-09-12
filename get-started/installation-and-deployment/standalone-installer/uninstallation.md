@@ -22,6 +22,6 @@ sudo ./run_uninstall_all.sh
 
 <figure><img src="../../../.gitbook/assets/image (303).png" alt=""><figcaption></figcaption></figure>
 
-Step 4. Uninstallation finished. You will see a message like below.
+Step 4. Uninstall successfully. You will see a message like as below.
 
 <figure><img src="../../../.gitbook/assets/image (304).png" alt=""><figcaption></figcaption></figure>

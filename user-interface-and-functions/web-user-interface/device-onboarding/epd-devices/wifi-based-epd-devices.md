@@ -1,4 +1,6 @@
-# WiFi-based
+# WiFi-based EPD devices
+
+The overall flowchart for connecting WiFi-based EPD devices to DeviceOn/ePaper is shown as below.
 
 <figure><img src="../../../../.gitbook/assets/IP_Onboarding.png" alt=""><figcaption></figcaption></figure>
 

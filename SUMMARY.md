@@ -8,6 +8,7 @@
   * [✨ Feature Highlight](get-started/about-deviceon-epaper/feature-highlight.md)
   * [🖥️ Server Solutions](get-started/about-deviceon-epaper/server-solutions.md)
   * [🔐 Security Architecture](get-started/about-deviceon-epaper/security-architecture.md)
+  * [🆕 EPD Products](get-started/about-deviceon-epaper/epd-products.md)
 * [⚒️ Installation and Deployment](get-started/installation-and-deployment/README.md)
   * [Standalone Installer](get-started/installation-and-deployment/standalone-installer/README.md)
     * [Installation](get-started/installation-and-deployment/standalone-installer/installation.md)

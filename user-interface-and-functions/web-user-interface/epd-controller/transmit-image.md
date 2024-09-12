@@ -10,6 +10,8 @@ Step 2. Choose Transmit options and click OK.
 
 <figure><img src="../../../.gitbook/assets/image (276).png" alt=""><figcaption></figcaption></figure>
 
+**Transmit Parameters:**
+
 * **Which page?** Which page to transmit the image?
 * **Refresh After Transmit?** Directly refresh after transmit the image.
 * **With Blinking LED?** Blink LED lights after transmit the image.

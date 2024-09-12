@@ -68,3 +68,15 @@ By following these steps, your ePaper device will be able to dynamically display
 
 <figure><img src="../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
+## Dithering
+
+**Step 1. Navigate to the Template Page**: Access the **Template** page in your DeviceOn/ePaper platform.
+
+**Step 2. Select an Image Component**: Drag and drop an **image** component into the template layout. Select it by left-clicking on the mouse. Enable both the **Brightness Enhancement** and **Dithering Treatment** options.
+
+<figure><img src="../../../.gitbook/assets/image (450).png" alt=""><figcaption></figcaption></figure>
+
+* **Brightness Enhancement:** Adjust image colors according to E-ink recommendation.&#x20;
+* **Dithering Treatment:** Apply the [Floyd–Steinberg dithering](https://en.wikipedia.org/wiki/Floyd%E2%80%93Steinberg\_dithering) method to process the image.
+
+Step 3. **Save this template and preview.**&#x20;

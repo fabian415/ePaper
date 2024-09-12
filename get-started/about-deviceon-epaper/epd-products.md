@@ -1,6 +1,6 @@
 # 🆕 EPD Products
 
-Currently, Advantech provides  overall product solutions includes various models of fanless box PCs, electronic paper display modules, ePaper display devices, and IoT routers.
+Currently, Advantech offers overall EPD solutions includes various models of fanless box PCs, electronic paper display modules, ePaper display devices, and IoT routers.
 
 **EPD Servers**
 
@@ -9,8 +9,6 @@ Currently, Advantech provides  overall product solutions includes various models
 **EPD Routers**
 
 <table><thead><tr><th>Model Name</th><th width="159">OS</th><th>Communication</th></tr></thead><tbody><tr><td><a href="https://www.advantech.com/zh-tw/products/17cdfd4e-330f-4170-b458-fcdad89e5cea/wise-3240/mod_82cb0192-37e4-4fac-a3f6-89ef0b9534e4">WISE-3240</a></td><td>Linux</td><td>Zigbee, WiFi</td></tr><tr><td><a href="https://www.advantech.com/zh-tw/products/17cdfd4e-330f-4170-b458-fcdad89e5cea/wise-3270/mod_5580b4ce-a168-4314-bec4-facd1f296be8">WISE-3270</a></td><td>Linux</td><td>Zigbee, 4G/LTE</td></tr><tr><td><a href="https://www.advantech.com/zh-tw/products/17cdfd4e-330f-4170-b458-fcdad89e5cea/wise-3220/mod_3530a2be-431d-4e4a-b5cc-7156ea767895">WISE-3220</a></td><td>Linux</td><td>Zigbee</td></tr></tbody></table>
-
-
 
 **EPD Models**
 

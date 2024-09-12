@@ -10,11 +10,13 @@ This section specifies the minimum hardware requirements for DeviceOn/ePaper Clo
 
 Attention to the following areas can make a significant improvement to your overall user experience and enjoyment of the software:
 
-* <mark style="color:blue;">Memory - at least 16 GB or more.</mark>
-* <mark style="color:blue;">CPU - Intel Core i7 6600U (CPU Benchmark: 3446) or more.</mark>
-* <mark style="color:blue;">Hard Drive - 128 GB SSD or 1TB HDD.</mark>
+#### Recommended System Specifications:
 
-General Operation Systems and Recommendations:
+* <mark style="color:blue;">**Memory**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">- at least 16 GB or more.</mark>
+* <mark style="color:blue;">**CPU**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">- Intel Core i7 6600U (CPU Benchmark: 3446) or more.</mark>
+* <mark style="color:blue;">**Hard Drive**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">- 128 GB SSD or 1TB HDD.</mark>
+
+#### Operation System Requirements:
 
 * <mark style="color:blue;">Ubuntu-20.04 64-bit</mark>
 

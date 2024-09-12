@@ -10,19 +10,19 @@ Remote backup for a DeviceOn/ePaper server is a crucial part for protecting agai
 
 ## Backup setting
 
-1. Sign in DeviceOn/ePaper with a super admin role (root).
+Step 1. Sign in DeviceOn/ePaper with a super admin role (root).
 
 <figure><img src="../../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
 
-2. Select the **Setting - System** option, and then click the **System Backup** button.
+Step 2. Select the **Setting - System** option, and then click the **System Backup** button.
 
 <figure><img src="../../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
 
-3. Choose an external FTP storage as a backup storage.
+Step 3. Choose an external FTP storage as a backup storage.
 
 <figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
-4. After midnight, this server will back up all necessary materials (Databases, OTA packages, images, scripts, etc) to this remote repository.&#x20;
+Step 4. After midnight, this server will back up all necessary materials (Databases, OTA packages, images, scripts, etc) to this remote repository.&#x20;
 
 File location: /SYSTEM\_BK/{Server MAC}/Backup\_{date}.zip
 
@@ -30,12 +30,17 @@ File location: /SYSTEM\_BK/{Server MAC}/Backup\_{date}.zip
 
 ## Recovery procedure
 
-1. Install **the same version** of DeviceOn/ePaper on the new machine
-2. Copy Backup\_xxxxxxxx.zip file to the new machine
-3. `unzip` Backup\_xxxxxxxx.zip
-4. Use the `cd` command to navigate to the directory where `run.sh` is located
-5. Use the `chmod` command to make `run.sh` script executable
-6. Run `run.sh`
+Step 1. Install **the same version** of DeviceOn/ePaper on the new machine
+
+Step 2. Copy Backup\_xxxxxxxx.zip file to the new machine
+
+Step 3. `unzip` Backup\_xxxxxxxx.zip
+
+Step 4. Use the `cd` command to navigate to the directory where `run.sh` is located
+
+Step 5. Use the `chmod` command to make `run.sh` script executable
+
+Step 6. Run `run.sh`
 
 <figure><img src="../../.gitbook/assets/image (285).png" alt=""><figcaption></figcaption></figure>
 

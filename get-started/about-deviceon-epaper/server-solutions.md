@@ -51,7 +51,7 @@ The DeviceOn/ePaper VM (Virtual Machine) can be initiated directly from the Azur
 
 Current Version of DeviceOn/ePaper on Azure Marketplace:
 
-* <mark style="color:blue;">v1907 (Ubuntu-20.04 64-bit)</mark>
+* <mark style="color:blue;">v3.2.0 (Ubuntu-20.04 64-bit)</mark>
 
 Please follow the instructions below to guide you to start this feature.&#x20;
 

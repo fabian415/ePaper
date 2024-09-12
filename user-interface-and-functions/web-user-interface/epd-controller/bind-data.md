@@ -10,7 +10,7 @@ The purpose of this section is to bind customers' application information to an 
 
 <figure><img src="../../../.gitbook/assets/Item binding.png" alt=""><figcaption></figcaption></figure>
 
-## Bind A Single EPD Device
+## Bind Single EPD Device
 
 Step 1. Navigate to the **EPD Controller** page.
 

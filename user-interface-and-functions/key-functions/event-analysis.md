@@ -10,7 +10,7 @@ The event logs from DeviceOn/ePaper record detail information relevant to EPD de
 5. The occurrence of abnormal system reboots.
 {% endhint %}
 
-## Download DeviceOn/ePaper Events
+## Download Events
 
 Step 1. Navigate to **Setting - Event** page, choose the time range, and then download DeviceOn/ePaper events.
 

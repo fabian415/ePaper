@@ -1,8 +1,20 @@
 # 🆕 EPD Products
 
+Currently, Advantech provides  overall product solutions includes various models of fanless box PCs, electronic paper display modules, ePaper display devices, and IoT routers.
+
+**Server**
+
+**Fanless Box PCs**
+
+<table><thead><tr><th>Size</th><th width="159">Display Color</th><th>Model Name</th><th>Communication</th></tr></thead><tbody><tr><td>2.9"</td><td>Black, White</td><td><a href="https://www.advantech.com/zh-tw/products/31602356-e41f-4321-ba9f-012d50648c6b/epd-023b1/mod_a6ea4cd8-6abe-4278-9b52-67134414496f">EPD-023B1</a></td><td>Zigbee</td></tr><tr><td>13.3"</td><td>Black, White</td><td><a href="https://www.advantech.com/zh-tw/products/31602356-e41f-4321-ba9f-012d50648c6b/epm-680/mod_67dbe987-8c7b-4834-bb79-76a51ca063cf">EPM-680</a></td><td>USB</td></tr><tr><td>31.2"</td><td>16 gray level</td><td><a href="https://www.advantech.com/zh-tw/products/31602356-e41f-4321-ba9f-012d50648c6b/epm-880/mod_16ee75cf-4e4b-425c-913f-be9e5484c80b">EPM-880</a></td><td>USB</td></tr></tbody></table>
+
+**IoT Routers**
+
+<table><thead><tr><th>Size</th><th width="159">Display Color</th><th>Model Name</th><th>Communication</th></tr></thead><tbody><tr><td>2.9"</td><td>Black, White</td><td><a href="https://www.advantech.com/zh-tw/products/31602356-e41f-4321-ba9f-012d50648c6b/epd-023b1/mod_a6ea4cd8-6abe-4278-9b52-67134414496f">EPD-023B1</a></td><td>Zigbee</td></tr><tr><td>13.3"</td><td>Black, White</td><td><a href="https://www.advantech.com/zh-tw/products/31602356-e41f-4321-ba9f-012d50648c6b/epm-680/mod_67dbe987-8c7b-4834-bb79-76a51ca063cf">EPM-680</a></td><td>USB</td></tr><tr><td>31.2"</td><td>16 gray level</td><td><a href="https://www.advantech.com/zh-tw/products/31602356-e41f-4321-ba9f-012d50648c6b/epm-880/mod_16ee75cf-4e4b-425c-913f-be9e5484c80b">EPM-880</a></td><td>USB</td></tr></tbody></table>
 
 
-**EPD Model**
+
+**EPD Models**
 
 | Size  | Display Color                                  | Model Name                                                                                                                                 | Communication        |
 | ----- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- |
@@ -16,7 +28,7 @@
 | 25.3" | >30k colors                                    | [EPD-765](https://www.advantech.com/zh-tw/products/31602356-e41f-4321-ba9f-012d50648c6b/epd-765/mod\_d80a7ba1-5993-4ddf-ae19-e3c8e6df16eb) | WiFi                 |
 | 25.3" | >30k colors                                    | [EPD-258](https://www.advantech.com/zh-tw/products/31602356-e41f-4321-ba9f-012d50648c6b/epd-258/mod\_4fe940f0-9ae3-40d7-9b0a-a1778c7d0f3b) | WiFi                 |
 
-**EPD Module**
+**EPD Modules**
 
 | Size  | Display Color | Model Name                                                                                                                                     | Communication |
 | ----- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
@@ -24,4 +36,3 @@
 | 13.3" | Black, White  | [EPM-680](https://www.advantech.com/zh-tw/products/31602356-e41f-4321-ba9f-012d50648c6b/epm-680/mod\_67dbe987-8c7b-4834-bb79-76a51ca063cf)     | USB           |
 | 31.2" | 16 gray level | [EPM-880](https://www.advantech.com/zh-tw/products/31602356-e41f-4321-ba9f-012d50648c6b/epm-880/mod\_16ee75cf-4e4b-425c-913f-be9e5484c80b)     | USB           |
 
-EPD Modules

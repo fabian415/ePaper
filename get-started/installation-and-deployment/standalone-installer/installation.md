@@ -122,7 +122,7 @@ Finally, a workable DeviceOn/ePaper server should be there as the target host. O
 
 ## Firewall Setting
 
-#### Check out whether the firewall inbound rules in the following table have been set or not (We have set up the necessary port by default).
+Check out whether the firewall inbound rules in the following table have been set or not (We have set up the necessary port by default).
 
 | Port        | Inbound rule                            | Service                |
 | ----------- | --------------------------------------- | ---------------------- |

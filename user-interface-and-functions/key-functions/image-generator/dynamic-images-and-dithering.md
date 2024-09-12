@@ -79,4 +79,16 @@ By following these steps, your ePaper device will be able to dynamically display
 * **Brightness Enhancement:** Adjust image colors according to E-ink recommendation.&#x20;
 * **Dithering Treatment:** Apply the [Floyd–Steinberg dithering](https://en.wikipedia.org/wiki/Floyd%E2%80%93Steinberg\_dithering) method to process the image.
 
-Step 3. **Save this template and preview.**&#x20;
+Step 3. **Save this template and preview.** You will see the output differences between dithering and no-dithering.
+
+* Dithering + Brightness enhancement:
+
+<figure><img src="../../../.gitbook/assets/image (451).png" alt=""><figcaption></figcaption></figure>
+
+* Dithering:
+
+<figure><img src="../../../.gitbook/assets/image (452).png" alt=""><figcaption></figcaption></figure>
+
+* No Treatment:
+
+<figure><img src="../../../.gitbook/assets/image (453).png" alt=""><figcaption></figcaption></figure>

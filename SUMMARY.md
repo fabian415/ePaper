@@ -16,6 +16,7 @@
   * [Azure Marketplace](get-started/installation-and-deployment/azure-marketplace.md)
   * [Product Activation](get-started/installation-and-deployment/product-activation.md)
 * [⏲️ Version history](get-started/version-history/README.md)
+  * [v3.2.2](get-started/version-history/v3.2.2.md)
   * [v3.2.1](get-started/version-history/v3.2.1.md)
   * [v3.2.0](get-started/version-history/v3.2.0.md)
   * [v3.1.2](get-started/version-history/v3.1.2.md)

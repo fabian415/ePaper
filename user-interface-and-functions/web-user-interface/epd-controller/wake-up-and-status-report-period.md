@@ -52,7 +52,7 @@ By using the group schedule task, you can set specific working intervals, such a
 
 <figure><img src="../../../.gitbook/assets/image (398).png" alt=""><figcaption></figcaption></figure>
 
-**Parameters**
+**Schedule Parameters**
 
 * **Schedule Name:** Assign a schedule name (cannot be duplicated)
 * **Enable:** Enable or disable this schedule
@@ -71,7 +71,7 @@ By using the group schedule task, you can set specific working intervals, such a
 
 **Step 4. Schedule Plans.** Here we set up schedule plans according to the following table.&#x20;
 
-Note: You can only set up one action within ONE minute of a specific time, so please shift the time to the next minute.
+Setup Example: You can only set up one action within ONE minute of a specific time, so please shift the time to the next minute.
 
 | Schedule Name   | Time  | Action                       |
 | --------------- | ----- | ---------------------------- |

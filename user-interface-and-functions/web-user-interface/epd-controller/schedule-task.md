@@ -2,21 +2,23 @@
 
 > Users can schedule system tasks, allowing tasks to be automated within specific time frames. By setting up different schedules, it is also possible to achieve power savings and efficient operation for e-paper devices.
 
-1. Click the **Group Control** button on the top-right corner.
+Step 1. Click the **Group Control** button on the top-right corner.
 
 <figure><img src="../../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
 
-2. Click the **Schedule** button on a specific device group.
+Step 2. Click the **Schedule** button on a specific device group.
 
 <figure><img src="../../../.gitbook/assets/image (264).png" alt=""><figcaption></figcaption></figure>
 
-3. Here is the list of existing schedule tasks. Click the **Add** button to new a schedule task.
+Step 3. Here is the list of existing schedule tasks. Click the **Add** button to new a schedule task.
 
 <figure><img src="../../../.gitbook/assets/image (265).png" alt=""><figcaption></figcaption></figure>
 
-4. Fill in the necessary information about a schedule task. Then, click the **Save** button.
+Step 4. Fill in the necessary information about a schedule task. Then, click the **Save** button.
 
 <figure><img src="../../../.gitbook/assets/image (266).png" alt=""><figcaption></figcaption></figure>
+
+**Schedule Parameters:**
 
 * **Schedule Name:** the schedule name
 * **Enable:** enable this schedule task or not

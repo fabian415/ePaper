@@ -8,7 +8,7 @@ Using the smart warehouse application as an example, we can display the informat
 
 1. **Data Collection**: Gather the item number information from the warehouse management system.
 2. **Template Design:** Design a template with a user-friendly template designer.&#x20;
-3. **EPD Display Assignment**: Assign the transmitted data to specific EPD displays corresponding to the designated items.
+3. **Data Assignment**: Assign the transmitted data to specific EPD displays corresponding to the designated items.
 4. **EPD Display Update**: Update the EPD displays with the assigned item number information, ensuring each display shows the correct data for its respective item.
 
 <figure><img src="../../../.gitbook/assets/Image_Generator_Overview.png" alt=""><figcaption></figcaption></figure>
@@ -224,7 +224,7 @@ Step 2. You also can export as a JSON file as a backup copy in case next time yo
 
 <figure><img src="../../../.gitbook/assets/image (339).png" alt=""><figcaption></figcaption></figure>
 
-## **EPD Display Assignment**
+## **Data Assignment**
 
 In this section, you can bind the item data (from **Data Collection**) and the template  (from **Template Design**) to an EPD device
 

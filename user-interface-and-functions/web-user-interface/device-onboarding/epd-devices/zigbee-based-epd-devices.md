@@ -1,4 +1,6 @@
-# zigbee-based EPD devices
+# Zigbee-based EPD devices
+
+The overall flowchart for connecting Zigbee-based EPD devices to DeviceOn/ePaper is shown as below.
 
 <figure><img src="../../../../.gitbook/assets/ZB_Onboarding (2).png" alt=""><figcaption></figcaption></figure>
 

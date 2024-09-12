@@ -38,8 +38,8 @@ Step 5. Configure your network settings to ensure connectivity between the serve
 
 Step 6. Use Android or iOS mobile to connect WiFi-based EPDs. Please follow the instructions below.
 
-{% content-ref url="../user-interface-and-functions/web-user-interface/device-onboarding/epd-devices/wifi-based-epd-devices.md" %}
-[wifi-based-epd-devices.md](../user-interface-and-functions/web-user-interface/device-onboarding/epd-devices/wifi-based-epd-devices.md)
+{% content-ref url="../user-interface-and-functions/web-user-interface/device-onboarding/epd-devices/wifi-based.md" %}
+[wifi-based.md](../user-interface-and-functions/web-user-interface/device-onboarding/epd-devices/wifi-based.md)
 {% endcontent-ref %}
 
 ## Import Application Data

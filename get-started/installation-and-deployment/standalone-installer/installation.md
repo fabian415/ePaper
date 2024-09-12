@@ -9,7 +9,7 @@ If you are interested in DeviceOn/ePaper and are used to the Linux platform, we 
 
 ## Steps to Install
 
-### Step 1: Open a terminal
+#### Step 1: Open a terminal
 
 > The installer runs in CLI (Command Line Interface) mode. As such, open a terminal preferable for you.
 

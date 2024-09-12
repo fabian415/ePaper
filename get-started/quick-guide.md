@@ -28,8 +28,8 @@ Step 5. Configure your network settings to ensure connectivity between the serve
 
 Step 6. Connect EPD routers and set up their whitelists to allow for EPD device connection. Please follow the instructions below.
 
-{% content-ref url="../user-interface-and-functions/web-user-interface/device-onboarding/epd-devices/zigbee-based.md" %}
-[zigbee-based.md](../user-interface-and-functions/web-user-interface/device-onboarding/epd-devices/zigbee-based.md)
+{% content-ref url="../user-interface-and-functions/web-user-interface/device-onboarding/epd-devices/zigbee-based-epd-devices.md" %}
+[zigbee-based-epd-devices.md](../user-interface-and-functions/web-user-interface/device-onboarding/epd-devices/zigbee-based-epd-devices.md)
 {% endcontent-ref %}
 
 ## WiFi-based EPD Onboard

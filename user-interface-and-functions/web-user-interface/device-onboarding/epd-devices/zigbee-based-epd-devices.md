@@ -1,4 +1,4 @@
-# zigbee-based
+# zigbee-based EPD devices
 
 <figure><img src="../../../../.gitbook/assets/ZB_Onboarding (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -24,7 +24,7 @@ Step 4. After a few minutes, you should see the online message for the EPD-Route
 
 <figure><img src="../../../../.gitbook/assets/ZB_Onboarding_3.png" alt=""><figcaption></figcaption></figure>
 
-## Assign e-paper’s MAC addresses to the whitelist on each WISE-3240 router.
+## Assign EPD’s MAC addresses to the whitelist on each WISE-3240 router.
 
 Step 1. Open a browser and sign in the DeviceOn/ePaper. Then, go to the **Whitelist Setting** page to configure the whitelist of WISE-3240 routers.
 
@@ -52,6 +52,6 @@ Step 6. Click the **save** button to save this setting.
 
 <figure><img src="../../../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
 
-Step 7. After few minutes, you should see the online message for the EPD-Device on DeviceOn/ePaper.
+Step 7. After few minutes, you should see the online message for the EPD devices on DeviceOn/ePaper.
 
 <figure><img src="../../../../.gitbook/assets/image (284).png" alt=""><figcaption></figcaption></figure>

@@ -20,7 +20,7 @@ Attention to the following areas can make a significant improvement to your over
 
 * <mark style="color:blue;">Ubuntu-20.04 64-bit</mark>
 
-#### Firewall Setting:
+**Firewall Setting:**
 
 | Port        | Default Inbound rule                    | Service                |
 | ----------- | --------------------------------------- | ---------------------- |
@@ -38,7 +38,7 @@ Attention to the following areas can make a significant improvement to your over
 
 The On-premise ARK solution for DeviceOn/ePaper involves integrating the DeviceOn/ePaper software into Advantech's ARK machines, such as the ARK-2250A2 and ARK-1123HA2. This approach bundles the ePaper management software with robust hardware, providing a comprehensive, self-contained solution. It's particularly suited for environments where on-site management and data handling are preferred, offering enhanced control and security. This solution is ideal for users who seek a reliable, integrated system for managing ePaper devices without the need for external cloud services.
 
-#### Order Information:
+**Order Information:**
 
 | Model Name    | Part Number     | Description                                                                                          |
 | ------------- | --------------- | ---------------------------------------------------------------------------------------------------- |

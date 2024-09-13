@@ -4,7 +4,7 @@ Currently, Advantech offers overall EPD solutions includes various models of fan
 
 **EPD Servers**
 
-<table><thead><tr><th>Model Name</th><th width="213">CPU</th><th width="107">Memory</th><th>Support</th></tr></thead><tbody><tr><td><a href="https://www.advantech.com/zh-tw/products/6a962f35-ccac-4443-8be0-1a8a98f1e784/epd-ark-1123h/mod_77dc458d-6996-4522-9288-087ac19e297a">EPD-ARK-1123H</a></td><td>Intel® Celeron Quad Core J1900</td><td>8 GB</td><td>500 EPD connections</td></tr><tr><td><a href="https://www.advantech.com/zh-tw/products/6a962f35-ccac-4443-8be0-1a8a98f1e784/epd-ark-2250l/mod_452b2201-6da6-4cc3-884f-86cc284ac528">EPD-ARK-2250L</a></td><td>Intel® Core i7 6600U</td><td>16 GB</td><td>10,000 EPD connections</td></tr></tbody></table>
+<table><thead><tr><th>Model Name</th><th width="213">CPU</th><th width="107">Memory</th></tr></thead><tbody><tr><td><a href="https://www.advantech.com/zh-tw/products/6a962f35-ccac-4443-8be0-1a8a98f1e784/epd-ark-1123h/mod_77dc458d-6996-4522-9288-087ac19e297a">EPD-ARK-1123H</a></td><td>Intel® Celeron Quad Core J1900</td><td>8 GB</td></tr><tr><td><a href="https://www.advantech.com/zh-tw/products/6a962f35-ccac-4443-8be0-1a8a98f1e784/epd-ark-2250l/mod_452b2201-6da6-4cc3-884f-86cc284ac528">EPD-ARK-2250L</a></td><td>Intel® Core i7 6600U</td><td>16 GB</td></tr></tbody></table>
 
 **EPD Routers**
 

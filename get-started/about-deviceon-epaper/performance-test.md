@@ -6,7 +6,7 @@ icon: chart-line-up
 
 ## Test Machine
 
-<table><thead><tr><th width="467">Name</th><th>vCPU</th><th>Memory (GB)</th></tr></thead><tbody><tr><td>Azure Virtual Machine Standard D2s v5</td><td>2</td><td>8</td></tr><tr><td>Azure Virtual Machine Standard D4s v5</td><td>4</td><td>16</td></tr></tbody></table>
+<table><thead><tr><th width="348">Name</th><th width="166">DeviceOn/ePaper</th><th width="80">vCPU</th><th>Memory (GB)</th></tr></thead><tbody><tr><td>Azure Virtual Machine Standard D2s v5</td><td>v3.2.0</td><td>2</td><td>8</td></tr><tr><td>Azure Virtual Machine Standard D4s v5</td><td>v3.2.0</td><td>4</td><td>16</td></tr></tbody></table>
 
 ## Connection & Auto-report Test
 

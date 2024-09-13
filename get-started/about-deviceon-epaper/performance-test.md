@@ -22,11 +22,11 @@ The **Standard D2s v5** and **Standard** **D4s v5** virtual machines are capable
 
 * **Standard D2s v5**
 
-<table><thead><tr><th width="204">Connected Devices</th><th width="123">Auto-report</th><th width="82">Time</th><th width="99">Result</th><th>Note</th></tr></thead><tbody><tr><td>2500</td><td>1 min</td><td>1 hr</td><td>Success</td><td></td></tr><tr><td>3000</td><td>1 min</td><td>1 hr</td><td>Failed</td><td>Packet loss in MongoDB, receiving 98.5% of the data.</td></tr></tbody></table>
+<table><thead><tr><th width="204">Connected Devices</th><th width="123">Auto-report</th><th width="82">Time</th><th width="99">Result</th><th>Note</th></tr></thead><tbody><tr><td><mark style="color:blue;">2500</mark></td><td><mark style="color:blue;">1 min</mark></td><td><mark style="color:blue;">1 hr</mark></td><td><mark style="color:blue;">Success</mark></td><td></td></tr><tr><td>3000</td><td>1 min</td><td>1 hr</td><td>Failed</td><td>Packet loss in MongoDB, receiving 98.5% of the data.</td></tr></tbody></table>
 
 * **Standard** **D4s v5**
 
-<table><thead><tr><th width="201">Connected Devices</th><th width="123">Auto-report</th><th width="80">Time</th><th width="99">Result</th><th>Note</th></tr></thead><tbody><tr><td>5000</td><td>1 min</td><td>1 hr</td><td>Success</td><td></td></tr><tr><td>7000</td><td>1 min</td><td>1 hr</td><td>Success</td><td></td></tr><tr><td>8000</td><td>1 min</td><td>1 hr</td><td>Failed</td><td>Packet loss in MongoDB, receiving 98.9% of the data.</td></tr><tr><td>10000</td><td>1 min</td><td>1 hr</td><td>Failed</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="201">Connected Devices</th><th width="123">Auto-report</th><th width="80">Time</th><th width="99">Result</th><th>Note</th></tr></thead><tbody><tr><td>5000</td><td>1 min</td><td>1 hr</td><td>Success</td><td></td></tr><tr><td><mark style="color:blue;">7000</mark></td><td><mark style="color:blue;">1 min</mark></td><td><mark style="color:blue;">1 hr</mark></td><td><mark style="color:blue;">Success</mark></td><td></td></tr><tr><td>8000</td><td>1 min</td><td>1 hr</td><td>Failed</td><td>Packet loss in MongoDB, receiving 98.9% of the data.</td></tr><tr><td>10000</td><td>1 min</td><td>1 hr</td><td>Failed</td><td></td></tr></tbody></table>
 
 ## Transmit Image Schedule Test
 
@@ -48,10 +48,10 @@ We performed tests using Azure virtual machines with different quantities of EPD
 
 * **Standard D2s v5 for the 10-minute schedule**
 
-<table><thead><tr><th width="193">Connected Devices</th><th width="153">Time per batch</th><th width="82">Batch</th><th width="101">Result</th><th>Note</th></tr></thead><tbody><tr><td>200</td><td>3 min</td><td>104</td><td>Success</td><td></td></tr><tr><td>500</td><td>7 min</td><td>30</td><td>Success</td><td></td></tr><tr><td>700</td><td>9 min</td><td>18</td><td>Failed</td><td>Packet loss in MongoDB, receiving 98.16% of the data.</td></tr></tbody></table>
+<table><thead><tr><th width="193">Connected Devices</th><th width="153">Time per batch</th><th width="82">Batch</th><th width="101">Result</th><th>Note</th></tr></thead><tbody><tr><td>200</td><td>3 min</td><td>104</td><td>Success</td><td></td></tr><tr><td><mark style="color:blue;">500</mark></td><td><mark style="color:blue;">7 min</mark></td><td><mark style="color:blue;">30</mark></td><td><mark style="color:blue;">Success</mark></td><td></td></tr><tr><td>700</td><td>9 min</td><td>18</td><td>Failed</td><td>Packet loss in MongoDB, receiving 98.16% of the data.</td></tr></tbody></table>
 
 * **Standard D2s v5 for the 30-minute schedule**
 
-<table><thead><tr><th width="193">Connected Devices</th><th width="153">Time per batch</th><th width="82">Batch</th><th width="101">Result</th><th>Note</th></tr></thead><tbody><tr><td>1400</td><td>21 min</td><td>15</td><td>Success</td><td></td></tr><tr><td>1600</td><td>21 min</td><td>16</td><td>Failed</td><td></td></tr><tr><td>1800</td><td>24 min</td><td>9</td><td>Failed</td><td>Packet loss in MongoDB, receiving 98.16% of the data.</td></tr><tr><td>2000</td><td>27 min</td><td>4</td><td>Failedee</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="193">Connected Devices</th><th width="153">Time per batch</th><th width="82">Batch</th><th width="101">Result</th><th>Note</th></tr></thead><tbody><tr><td><mark style="color:blue;">1400</mark></td><td><mark style="color:blue;">21 min</mark></td><td><mark style="color:blue;">15</mark></td><td><mark style="color:blue;">Success</mark></td><td></td></tr><tr><td>1600</td><td>21 min</td><td>16</td><td>Failed</td><td>Packet loss in MongoDB, receiving 99.15% of the data.</td></tr><tr><td>1800</td><td>24 min</td><td>9</td><td>Failed</td><td></td></tr><tr><td>2000</td><td>27 min</td><td>4</td><td>Failed</td><td>Packet loss in MongoDB, receiving 97.52% of the data.</td></tr></tbody></table>
 
 * **Standard** **D4s v5**

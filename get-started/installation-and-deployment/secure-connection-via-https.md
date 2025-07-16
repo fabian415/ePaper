@@ -85,15 +85,15 @@ sudo certbot certonly --webroot
 
 > Enter the domain name(s) you would like on your certificate. For example, <mark style="color:orange;">advantech.southeastasia.cloudapp.azure.com</mark>
 
-<figure><img src="../../.gitbook/assets/圖片 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/圖片 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > Input the webroot of DeviceOn/ePaper service. Here is <mark style="color:orange;">/opt/advantech/epd/lib/portal.war</mark>
 
-<figure><img src="../../.gitbook/assets/圖片 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/圖片 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > The certificate is created and saved at the following path.
 
-<figure><img src="../../.gitbook/assets/圖片.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/圖片 (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 7. Copy the certificate files to the `/opt/advantech/epd/etc/ssl` directory and change the file permissions accordingly.
 
@@ -120,4 +120,49 @@ To confirm that your site is set up properly, visit `https://yourwebsite.com/` i
 
 <figure><img src="../../.gitbook/assets/圖片 (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/圖片 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/圖片.png" alt=""><figcaption></figcaption></figure>
+
+#### Step 10. Set up a cron job to automatically renew the certificate (Optional)
+
+> Create a file named renew\_cert.sh and save it in a specific directory. Let's say, /user/local/EPD
+
+```
+#!/bin/bash
+
+SRC="/etc/letsencrypt/live/advantech.southeastasia.cloudapp.azure.com"
+DST="/opt/advantech/epd/etc/ssl"
+
+# Renew certificate
+sudo certbot renew
+
+# 複製憑證
+sudo cp "$SRC/cert.pem" "$DST/server/server_certificate.pem"
+sudo cp "$SRC/privkey.pem" "$DST/server/private_key.pem"
+sudo cp "$SRC/fullchain.pem" "$DST/ca/ca_certificate.pem"
+
+# 修改擁有者
+sudo chown epd:advantech "$DST/server/server_certificate.pem"
+sudo chown epd:advantech "$DST/server/private_key.pem"
+sudo chown epd:advantech "$DST/ca/ca_certificate.pem"
+
+# 重啟 Tomcat（以下根據你的實際 service 名稱）
+sudo systemctl restart epd-portal.service
+```
+
+> Make this file executable.
+
+```
+sudo chmod +x /usr/local/EPD/renew_cert.sh
+```
+
+> Execute the following command.
+
+<pre><code><strong># 設定 crontab 工作的內容
+</strong>CRON_JOB="0 0 1 * *   root    /bin/bash /usr/local/EPD/renew_cert.sh"
+
+# 使用 sudo 編輯 crontab
+echo "$CRON_JOB" | sudo tee -a /etc/crontab > /dev/null
+
+# 重新載入 crontab 以確保更改生效
+sudo systemctl restart cron
+</code></pre>

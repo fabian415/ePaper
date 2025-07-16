@@ -81,14 +81,13 @@ sudo snap install --classic certbot
 sudo certbot certonly --webroot
 ```
 
-> Enter the email address or hit enter to skip
-
-
+> Enter the email address and accept the Terms of Service
 
 > Enter the domain name(s) you would like on your certificate. For example, <mark style="color:orange;">advantech.southeastasia.cloudapp.azure.com</mark>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+
 
 > Input the webroot of DeviceOn/ePaper service. Here is <mark style="color:orange;">/opt/advantech/epd/lib/portal.war</mark>
 
 > The certificate is created and saved at the following path.
+

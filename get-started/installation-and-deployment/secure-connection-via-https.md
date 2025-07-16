@@ -85,12 +85,23 @@ sudo certbot certonly --webroot
 
 > Enter the domain name(s) you would like on your certificate. For example, <mark style="color:orange;">advantech.southeastasia.cloudapp.azure.com</mark>
 
-<figure><img src="../../.gitbook/assets/圖片.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/圖片 (1).png" alt=""><figcaption></figcaption></figure>
 
 > Input the webroot of DeviceOn/ePaper service. Here is <mark style="color:orange;">/opt/advantech/epd/lib/portal.war</mark>
 
-<figure><img src="../../.gitbook/assets/圖片 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/圖片 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > The certificate is created and saved at the following path.
 
-<figure><img src="../../.gitbook/assets/圖片 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/圖片.png" alt=""><figcaption></figcaption></figure>
+
+#### Step 7. Copy the certificate files to the `/opt/advantech/epd/etc/ssl` directory and change the file permissions accordingly.
+
+<pre><code><strong>sudo cp /etc/letsencrypt/live/advantech.southeastasia.cloudapp.azure.com/cert.pem /opt/advantech/epd/etc/ssl/server/server_certificate.pem
+</strong>sudo cp /etc/letsencrypt/live/advantech.southeastasia.cloudapp.azure.com/privkey.pem /opt/advantech/epd/etc/ssl/server/private_key.pem
+sudo cp /etc/letsencrypt/live/advantech.southeastasia.cloudapp.azure.com/fullchain.pem /opt/advantech/epd/etc/ssl/ca/ca_certificate.pem
+
+sudo chown epd:advantech /opt/advantech/epd/etc/ssl/server/server_certificate.pem
+sudo chown epd:advantech /opt/advantech/epd/etc/ssl/server/private_key.pem
+sudo chown epd:advantech /opt/advantech/epd/etc/ssl/ca/ca_certificate.pem
+</code></pre>

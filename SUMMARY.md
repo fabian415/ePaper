@@ -17,6 +17,7 @@
     * [Uninstallation](get-started/installation-and-deployment/standalone-installer/uninstallation.md)
   * [Azure Marketplace](get-started/installation-and-deployment/azure-marketplace.md)
   * [Product Activation](get-started/installation-and-deployment/product-activation.md)
+  * [Secure Connection via HTTPS](get-started/installation-and-deployment/secure-connection-via-https.md)
 * [⏲️ Version history](get-started/version-history/README.md)
   * [v3.2.7](get-started/version-history/v3.2.7.md)
   * [v3.2.6](get-started/version-history/v3.2.6.md)

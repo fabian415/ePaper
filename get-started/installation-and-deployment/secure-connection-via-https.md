@@ -39,6 +39,8 @@ In this guide, we use **Let’s Encrypt**, a free and automated open-source CA, 
 advantech.southeastasia.cloudapp.azure.com
 ```
 
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 </details>
 
 #### Step 1. Access the [Certbot](https://certbot.eff.org/instructions?ws=other\&os=snap) website and select options as below.
@@ -80,7 +82,7 @@ sudo certbot certonly --webroot
 
 > Enter the domain name(s) you would like on your certificate
 
-<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
 
 > Input the webroot of DeviceOn/ePaper service
 

@@ -85,9 +85,12 @@ sudo certbot certonly --webroot
 
 > Enter the domain name(s) you would like on your certificate. For example, <mark style="color:orange;">advantech.southeastasia.cloudapp.azure.com</mark>
 
-
+<figure><img src="../../.gitbook/assets/圖片.png" alt=""><figcaption></figcaption></figure>
 
 > Input the webroot of DeviceOn/ePaper service. Here is <mark style="color:orange;">/opt/advantech/epd/lib/portal.war</mark>
 
+<figure><img src="../../.gitbook/assets/圖片 (1).png" alt=""><figcaption></figcaption></figure>
+
 > The certificate is created and saved at the following path.
 
+<figure><img src="../../.gitbook/assets/圖片 (2).png" alt=""><figcaption></figcaption></figure>

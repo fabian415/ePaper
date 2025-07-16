@@ -15,8 +15,35 @@ In this guide, we use **Let’s Encrypt**, a free and automated open-source CA, 
 
 1. Port 443 for https needs to be open and available at time of executing certbot.
 2. Certbot needs root access while executing because only root is allowed to bind to any port below 1024.
+3. An https certificate must be bound to a valid domain name. Please register a valid domain before proceeding with the following steps.&#x20;
 
-#### Step 1. Access the [Certbot](https://certbot.eff.org/instructions?ws=other\&os=snap) website and select certbot instructions as below
+<details>
+
+<summary>Using an Azure VM? Follow these steps to register a domain name</summary>
+
+1. Go to the [Azure Portal](https://portal.azure.com).
+
+2) Navigate to **Virtual Machines** and select your VM.
+
+3. In the **Overview** tab, find:
+
+* **Public IP address**: Click it to open the Public IP resource.
+* In the **Public IP address** blade, you’ll see a field named **DNS name** or **DNS name label**.
+
+- If it’s empty, click **Configuration** in the left menu of the Public IP, and set a **DNS name label** (e.g., <mark style="color:orange;">advantech</mark>).
+
+4. Save changes.\
+   You will now have a DNS name like:
+
+```
+advantech.southeastasia.cloudapp.azure.com
+```
+
+</details>
+
+#### Step 1. Access the [Certbot](https://certbot.eff.org/instructions?ws=other\&os=snap) website and select options as below.
+
+> My HTTP website is running <mark style="color:red;">Other</mark> on <mark style="color:red;">Linux (snap)</mark>.
 
 <figure><img src="../../.gitbook/assets/image (454).png" alt=""><figcaption></figcaption></figure>
 
@@ -42,7 +69,7 @@ sudo snap install --classic certbot
 #### Step 5. Creates a symbolic link and allows users to run `certbot` directly
 
 ```
-sudo ln -s /snap/bin/certbot /usr/bin/certbot
+sudo ln -s /snap/bin/certbot /usr/bin/certbot 
 ```
 
 #### Step 6. Run the following command and follow the instructions in the terminal

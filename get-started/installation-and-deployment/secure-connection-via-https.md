@@ -81,3 +81,7 @@ sudo certbot certonly --webroot
 > Enter the domain name(s) you would like on your certificate
 
 <div align="left"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+
+> Input the webroot of DeviceOn/ePaper service
+
+> The certificate is created and saved at the following path.

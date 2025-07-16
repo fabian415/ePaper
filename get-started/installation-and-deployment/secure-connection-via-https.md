@@ -105,3 +105,19 @@ sudo chown epd:advantech /opt/advantech/epd/etc/ssl/server/server_certificate.pe
 sudo chown epd:advantech /opt/advantech/epd/etc/ssl/server/private_key.pem
 sudo chown epd:advantech /opt/advantech/epd/etc/ssl/ca/ca_certificate.pem
 </code></pre>
+
+#### Step 8. Restart DeviceOn/ePaper service
+
+```
+sudo systemctl restart epd-portal.service
+```
+
+#### Step 9. Confirm that Certbot worked
+
+To confirm that your site is set up properly, visit `https://yourwebsite.com/` in your browser and look for the lock icon in the URL bar.
+
+<figure><img src="../../.gitbook/assets/圖片 (3).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/圖片 (4).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/圖片 (5).png" alt=""><figcaption></figcaption></figure>

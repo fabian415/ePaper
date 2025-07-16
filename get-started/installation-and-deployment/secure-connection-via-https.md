@@ -27,3 +27,27 @@ sudo apt update
 sudo apt install snapd
 ```
 
+Either log out and back in again, or restart your system, to ensure snap’s paths are updated correctly.
+
+#### Step 3. Remove certbot-auto and any Certbot OS packages (Optional)
+
+If you have any Certbot packages installed using an OS package manager like `apt`, `dnf`, or `yum`, you should remove them before installing the Certbot snap to ensure that when you run the command `certbot` the snap is used rather than the installation from your OS package manager. The exact command to do this depends on your OS, but common examples are `sudo apt-get remove certbot`, `sudo dnf remove certbot`, or `sudo yum remove certbot`.
+
+#### Step 4. Install Certbot
+
+```
+sudo snap install --classic certbot
+```
+
+#### Step 5. Creates a symbolic link and allows users to run `certbot` directly
+
+```
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+```
+
+#### Step 6. Run the following command and follow the instructions in the terminal
+
+```
+sudo certbot certonly --webroot
+```
+

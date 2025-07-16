@@ -125,7 +125,7 @@ To confirm that your site is set up properly, visit `https://yourwebsite.com/` i
 #### Step 10. Set up a cron job to automatically renew the certificate (Optional)
 
 {% hint style="info" %}
-<mark style="color:red;">**Use with caution: This step will add a cron job that will restart the DeviceOn/ePaper service every month by executing the following script.**</mark> It is **recommended to manually execute the `renew_cert.sh` script** for testing or if an immediate renewal is needed.
+**Use with caution:** <mark style="color:red;">This step will add a cron job that automatically restarts the DeviceOn/ePaper service every month by executing the specified script</mark>. For testing purposes or in the event of an urgent certificate renewal, it is recommended to manually run the `renew_cert.sh` script.
 {% endhint %}
 
 > Create a file named renew\_cert.sh and save it in a specific directory. Let's say, /user/local/EPD

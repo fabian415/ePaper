@@ -39,7 +39,9 @@ In this guide, we use **Let’s Encrypt**, a free and automated open-source CA, 
 advantech.southeastasia.cloudapp.azure.com
 ```
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+
+<figure><img src="../../.gitbook/assets/image (455).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

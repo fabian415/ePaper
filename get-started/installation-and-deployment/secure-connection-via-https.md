@@ -72,9 +72,8 @@ sudo snap install --classic certbot
 
 #### Step 5. Creates a symbolic link and allows users to run `certbot` directly
 
-```
-sudo ln -s /snap/bin/certbot /usr/bin/certbot 
-```
+<pre><code><strong>sudo ln -s /snap/bin/certbot /usr/bin/certbot 
+</strong></code></pre>
 
 #### Step 6. Run the following command and follow the instructions to setup certbot
 
@@ -82,10 +81,14 @@ sudo ln -s /snap/bin/certbot /usr/bin/certbot
 sudo certbot certonly --webroot
 ```
 
-> Enter the domain name(s) you would like on your certificate
+> Enter the email address or hit enter to skip
+
+
+
+> Enter the domain name(s) you would like on your certificate. For example, <mark style="color:orange;">advantech.southeastasia.cloudapp.azure.com</mark>
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
 
-> Input the webroot of DeviceOn/ePaper service
+> Input the webroot of DeviceOn/ePaper service. Here is <mark style="color:orange;">/opt/advantech/epd/lib/portal.war</mark>
 
 > The certificate is created and saved at the following path.

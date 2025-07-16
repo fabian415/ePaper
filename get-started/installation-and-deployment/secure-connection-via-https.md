@@ -135,17 +135,17 @@ DST="/opt/advantech/epd/etc/ssl"
 # Renew certificate
 sudo certbot renew
 
-# 複製憑證
+# Copy certificates
 sudo cp "$SRC/cert.pem" "$DST/server/server_certificate.pem"
 sudo cp "$SRC/privkey.pem" "$DST/server/private_key.pem"
 sudo cp "$SRC/fullchain.pem" "$DST/ca/ca_certificate.pem"
 
-# 修改擁有者
+# Modify owner to epd:advantech
 sudo chown epd:advantech "$DST/server/server_certificate.pem"
 sudo chown epd:advantech "$DST/server/private_key.pem"
 sudo chown epd:advantech "$DST/ca/ca_certificate.pem"
 
-# 重啟 Tomcat（以下根據你的實際 service 名稱）
+# Restart DeviceOn/ePaper Service
 sudo systemctl restart epd-portal.service
 ```
 
@@ -157,12 +157,13 @@ sudo chmod +x /usr/local/EPD/renew_cert.sh
 
 > Execute the following command.
 
-<pre><code><strong># 設定 crontab 工作的內容
-</strong>CRON_JOB="0 0 1 * *   root    /bin/bash /usr/local/EPD/renew_cert.sh"
+```
+# Set up crontab work
+CRON_JOB="0 0 1 * *   root    /bin/bash /usr/local/EPD/renew_cert.sh"
 
-# 使用 sudo 編輯 crontab
+# Use sudo to edit crontab
 echo "$CRON_JOB" | sudo tee -a /etc/crontab > /dev/null
 
-# 重新載入 crontab 以確保更改生效
+# Reload crontab to ensure this cron job work
 sudo systemctl restart cron
-</code></pre>
+```

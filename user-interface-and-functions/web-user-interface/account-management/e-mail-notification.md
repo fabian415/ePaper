@@ -24,7 +24,7 @@ Step 4. Edit account successfully.
 
 Step 1. Navigate to the **Setting - System** page, and click the **Mail Service Setting** button.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Step 2. Please fill in the following information:
 

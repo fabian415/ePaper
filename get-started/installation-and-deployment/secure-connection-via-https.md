@@ -15,7 +15,7 @@ In this guide, we use **Let’s Encrypt**, a free and automated open-source CA, 
 
 1. Port 443 for https needs to be open and available at time of executing certbot.
 2. Certbot needs root access while executing because only root is allowed to bind to any port below 1024.
-3. An https certificate must be bound to a valid domain name. Please register a valid domain before proceeding with the following steps.&#x20;
+3. An https certificate must be bound to a valid domain name. Please choose an appropriate top-level domain (TLD) and register it through a domain registrar of your choice.
 
 <details>
 
@@ -72,9 +72,12 @@ sudo snap install --classic certbot
 sudo ln -s /snap/bin/certbot /usr/bin/certbot 
 ```
 
-#### Step 6. Run the following command and follow the instructions in the terminal
+#### Step 6. Run the following command and follow the instructions to setup certbot
 
 ```
 sudo certbot certonly --webroot
 ```
 
+> Enter the domain name(s) you would like on your certificate
+
+<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>

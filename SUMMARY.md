@@ -59,6 +59,7 @@
     * [How to reconnect all device in the DeviceOn/ePaper](get-started/faq/technical/how-to-reconnect-all-device-in-the-deviceon-epaper.md)
     * [How to transmit graphics to the EPD device?](get-started/faq/technical/how-to-transmit-graphics-to-the-epd-device.md)
     * [How to update WISE-3240, WISE-1840 FW and OTA the EPD device FW?](get-started/faq/technical/how-to-update-wise-3240-wise-1840-fw-and-ota-the-epd-device-fw.md)
+    * [Change Tomcat Port from 80 to 8080](get-started/faq/technical/change-tomcat-port-from-80-to-8080.md)
 
 ## USER INTERFACE AND FUNCTIONS
 

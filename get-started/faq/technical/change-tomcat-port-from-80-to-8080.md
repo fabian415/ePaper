@@ -31,10 +31,11 @@ sudo systemctl start epd-tomcat
 
 5. Restart the Service Monitor and update its configuration to match the new Tomcat port
 
-<pre><code><strong>sudo pm2 stop epd-server-monitor
-</strong><strong>sudo pm2 delete epd-server-monitor
-</strong>sudo SERVER_CONFIG="/opt/advantech/epd/etc/epd" SCRIPT_ROOT_PATH="/usr/local/EPD" SERVICE_PORT="8090" TOMCAT_PORT="8080" RABBITMQ_PORT="15672" EPD_DATA="/opt/advantech/epd/data" pm2 start /usr/local/apps/epd-server-monitor/server/index.js --name epd-server-monitor --max-memory-restart 200M
-</code></pre>
+```
+sudo pm2 stop epd-server-monitor
+sudo pm2 delete epd-server-monitor
+sudo SERVER_CONFIG="/opt/advantech/epd/etc/epd" SCRIPT_ROOT_PATH="/usr/local/EPD" SERVICE_PORT="8090" TOMCAT_PORT="8080" RABBITMQ_PORT="15672" EPD_DATA="/opt/advantech/epd/data" pm2 start /usr/local/apps/epd-server-monitor/server/index.js --name epd-server-monitor --max-memory-restart 200M
+```
 
 6. Check the Service Monitor status is online
 

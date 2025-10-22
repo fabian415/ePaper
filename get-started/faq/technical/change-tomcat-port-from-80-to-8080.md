@@ -29,3 +29,5 @@ sudo systemctl start epd-tomcat
 <pre><code><strong>sudo pm2 stop epd-server-monitor
 </strong><strong>sudo SERVER_CONFIG="/opt/advantech/epd/etc/epd" SCRIPT_ROOT_PATH="/usr/local/EPD" SERVICE_PORT="8090" TOMCAT_PORT="8080" RABBITMQ_PORT="15672" pm2 start /usr/local/apps/epd-server-monitor/server/index.js --name epd-server-monitor --max-memory-restart 200M
 </strong></code></pre>
+
+<figure><img src="../../../.gitbook/assets/image (457).png" alt=""><figcaption></figcaption></figure>

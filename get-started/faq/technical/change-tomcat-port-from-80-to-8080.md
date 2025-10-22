@@ -4,7 +4,14 @@
 2. 使用 nana 編輯器修改 server.xml 為以下內容:
 
 ```
-// Some code
+sudo nano server.xml
 ```
 
-3.
+
+
+3. 打開防火牆設定，新增 8080 阜號
+
+```
+sudo ufw allow 8080
+```
+

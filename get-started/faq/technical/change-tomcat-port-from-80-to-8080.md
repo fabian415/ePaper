@@ -15,3 +15,12 @@ sudo nano server.xml
 sudo ufw allow 8080
 ```
 
+4. 重啟 Tomcat 服務
+
+```
+sudo systemctl stop epd-tomcat
+sudo systemctl start epd-tomcat
+```
+
+5. 更改 Service Monitor 在 Tomcat 連線上的設定
+6.

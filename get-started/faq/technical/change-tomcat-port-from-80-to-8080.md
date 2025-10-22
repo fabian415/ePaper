@@ -1,6 +1,6 @@
 # Change Tomcat Port from 80 to 8080
 
-1. Open a terminal and navigate to the Tomcat configuration directory: /opt/advantech/epd/etc/tomcat
+1. Open a terminal and navigate to the Tomcat configuration directory
 
 ```
 cd /opt/advantech/epd/etc/tomcat

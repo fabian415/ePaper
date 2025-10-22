@@ -36,4 +36,6 @@ sudo systemctl start epd-tomcat
 </strong>sudo SERVER_CONFIG="/opt/advantech/epd/etc/epd" SCRIPT_ROOT_PATH="/usr/local/EPD" SERVICE_PORT="8090" TOMCAT_PORT="8080" RABBITMQ_PORT="15672" EPD_DATA="/opt/advantech/epd/data" pm2 start /usr/local/apps/epd-server-monitor/server/index.js --name epd-server-monitor --max-memory-restart 200M
 </code></pre>
 
-<figure><img src="../../../.gitbook/assets/image (457).png" alt=""><figcaption></figcaption></figure>
+6. Check the Service Monitor status is online
+
+<figure><img src="../../../.gitbook/assets/image (458).png" alt=""><figcaption></figcaption></figure>

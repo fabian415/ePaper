@@ -18,7 +18,7 @@ Attention to the following areas can make a significant improvement to your over
 
 #### Operation System Requirements:
 
-* <mark style="color:blue;">Ubuntu-20.04 64-bit</mark>
+* <mark style="color:blue;">Ubuntu-22.04 64-bit</mark>
 
 **Firewall Setting:**
 
